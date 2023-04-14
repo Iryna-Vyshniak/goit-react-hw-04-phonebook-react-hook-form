@@ -1,8 +1,8 @@
 {
-  "name": "goit-react-hw-04-phonebook",
+  "name": "goit-react-hw-04-phonebook-react-hook-form",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Iryna-Vyshniak/goit-react-hw-04-phonebook/",
+  "homepage": "https://Iryna-Vyshniak/goit-react-hw-04-phonebook-react-hook-form/",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@testing-library/jest-dom": "^5.16.3",
