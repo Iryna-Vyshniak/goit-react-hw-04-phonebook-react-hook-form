@@ -10,6 +10,7 @@ export const LabelDescr = styled.label`
 
   color: ${props => props.theme.colors.white};
   text-shadow: ${props => props.theme.shadows.textShadow};
+  letter-spacing: 1.3px;
 `;
 
 export const LabelWrapper = styled.div`
@@ -19,19 +20,20 @@ export const LabelWrapper = styled.div`
 `;
 
 export const Input = styled.input`
-  padding-top: ${p => p.theme.space[3]}px;
-  padding-bottom: ${p => p.theme.space[3]}px;
+  padding-top: ${p => p.theme.space[4]}px;
+  padding-bottom: ${p => p.theme.space[4]}px;
   padding-left: ${p => p.theme.space[4]}px;
   padding-right: ${p => p.theme.space[4]}px;
 
   border: 0;
   outline: 0;
   border-radius: 8px;
-  color: ${props => props.theme.colors.white};
-  text-shadow: 0.5px 0.5px 0.5px #4b1414;
-
-  background-color: transparent;
-  box-shadow: inset 1px 1px 3px #b0706f, inset -1px -1px 5px #fff;
+  color: ${props => props.theme.colors.accent};
+  text-shadow: 0 0.4px 0.4px #000;
+  background-color: rgba(255, 155, 6, 0.406);
+  backdrop-filter: blur(10.5px);
+  box-shadow: inset 1px 1px 1px #b0706f, inset -1px -1px 1px #fff;
 
   font-size: ${props => props.theme.fontSizes.s};
+  letter-spacing: 1.4px;
 `;
