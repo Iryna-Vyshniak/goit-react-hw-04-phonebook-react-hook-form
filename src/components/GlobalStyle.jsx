@@ -12,9 +12,9 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
-    background: linear-gradient(211deg, rgba(75,20,20,1) 0%, rgba(224,171,173,1) 39%, rgba(216,163,165,1) 57%, rgba(253,215,215,1) 73%, rgba(255,255,255,1) 100%) no-repeat fixed;
+    background: linear-gradient(211deg, rgba(75,20,20,1) 0%, rgb(255,199,1) 39%, rgb(255,155,6) 57%, rgb(251,80,3) 73%, rgba(255,255,255,1) 100%) no-repeat fixed;
 
-     background-image: url(https://images.unsplash.com/photo-1592492152545-9695d3f473f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+     background-image: url(https://images.unsplash.com/photo-1557800634-95f2a96fbd64?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1365&q=80);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
