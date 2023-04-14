@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/goit-react-hw-04-phonebook-react-hook-form/static/css/main.86bee891.css",
-    "main.js": "/goit-react-hw-04-phonebook-react-hook-form/static/js/main.970feab1.js",
+    "main.js": "/goit-react-hw-04-phonebook-react-hook-form/static/js/main.e952a82f.js",
     "index.html": "/goit-react-hw-04-phonebook-react-hook-form/index.html",
     "main.86bee891.css.map": "/goit-react-hw-04-phonebook-react-hook-form/static/css/main.86bee891.css.map",
-    "main.970feab1.js.map": "/goit-react-hw-04-phonebook-react-hook-form/static/js/main.970feab1.js.map"
+    "main.e952a82f.js.map": "/goit-react-hw-04-phonebook-react-hook-form/static/js/main.e952a82f.js.map"
   },
   "entrypoints": [
     "static/css/main.86bee891.css",
-    "static/js/main.970feab1.js"
+    "static/js/main.e952a82f.js"
   ]
 }
