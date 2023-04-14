@@ -21,6 +21,7 @@ export const Item = styled.li`
   color: ${props => props.theme.colors.white};
   text-shadow: 0.5px 0.5px 0.5px #4b1414;
   font-size: ${props => props.theme.fontSizes.s};
+  letter-spacing: 1.3px;
 `;
 
 export const Btn = styled.button`
