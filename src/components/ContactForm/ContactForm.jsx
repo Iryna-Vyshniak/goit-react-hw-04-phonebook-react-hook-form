@@ -1,5 +1,4 @@
-import React from 'react';
-import { nanoid } from 'nanoid';
+import { useEffect } from 'react';
 import { BsFillTelephoneFill, BsPersonFill } from 'react-icons/bs';
 import { IoMdPersonAdd } from 'react-icons/io';
 import PropTypes from 'prop-types';
@@ -25,7 +24,7 @@ export const ContactForm = ({ onAddContact }) => {
     mode: 'onBlur',
   });
 
-  React.useEffect(() => {
+  useEffect(() => {
     setFocus('name');
   }, [setFocus]);
 
@@ -33,7 +32,7 @@ export const ContactForm = ({ onAddContact }) => {
     <Form
       autoComplete="off"
       onSubmit={handleSubmit(data => {
-        onAddContact({ id: nanoid(), ...data });
+        onAddContact({ ...data });
         reset();
       })}
     >
@@ -95,4 +94,5 @@ export const ContactForm = ({ onAddContact }) => {
 
 ContactForm.propType = {
   onSubmit: PropTypes.func.isRequired,
+  onAddContact: PropTypes.func.isRequired,
 };
